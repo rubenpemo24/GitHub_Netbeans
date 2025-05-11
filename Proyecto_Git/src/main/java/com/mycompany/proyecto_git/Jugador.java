@@ -163,13 +163,13 @@ public class Jugador {
     public void usar_objeto(String tipo_objeto){
         switch(tipo_objeto){
             case "pocion_vida":
-                puntos_vida=puntos_vida+20;
+                puntos_vida=puntos_vida+25;
                 if(puntos_vida>max_vida){
                     puntos_vida=max_vida;
                 }
                 break;
             case "pocion_magia":
-                puntos_magia=puntos_magia+20;
+                puntos_magia=puntos_magia+25;
                 if(puntos_magia>max_magia){
                     puntos_magia=max_magia;
                 }
